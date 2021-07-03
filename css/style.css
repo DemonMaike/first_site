@@ -21,3 +21,32 @@ body {
 }
 
 /* HEADER */
+
+.header {
+    padding: 42px 0;
+
+}
+
+.header__inner {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* NAV */
+
+.nav {
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+.nav__link {
+    color:#868686;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
