@@ -37,16 +37,29 @@ body {
 /* NAV */
 
 .nav {
+    display: flex;
     font-size: 13px;
     font-weight: 500;
+    opacity: .75;
     
 }
 
 .nav__link {
+    margin-left: 40px;
     color:#868686;
     text-decoration: none;
+    
+}
+
+.nav__link:first-child {
+    color: white;
+    background-color: #ffbb42;
+    padding: 10px 28px;
+    margin-left: 0;
+    opacity: 1;
 }
 
 .nav__link:hover {
     text-decoration: underline;
+    opacity: 1;
 }
