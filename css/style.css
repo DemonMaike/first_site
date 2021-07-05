@@ -20,7 +20,8 @@ body {
     margin:0 auto;
 }
 
-/* HEADER */
+/*=================================
+HEADER */
 
 .header {
     padding: 42px 0;
@@ -34,7 +35,8 @@ body {
     
 }
 
-/* NAV */
+/* ================================
+NAV */
 
 .nav {
     display: flex;
@@ -51,6 +53,7 @@ body {
     
 }
 
+/* Косяк со смещением текста*/
 .nav__link:first-child {
     color: white;
     background-color: #ffbb42;
@@ -62,4 +65,17 @@ body {
 .nav__link:hover {
     text-decoration: underline;
     opacity: 1;
+}
+
+/* ================================
+BANNER */
+
+.banner {
+    height: 590px;
+    background-color: #709dca;
+    width: 100%;
+}
+
+.bunner__button {
+    background-color:#ffbb42;
 }
