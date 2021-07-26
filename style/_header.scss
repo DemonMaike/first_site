@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    height: 100%;
+    max-height: 90px;
+    vertical-align: middle;
+    position: relative;
+
+    .header__image { 
+        vertical-align: middle;
+        padding-top: 20px;
+    } 
+  
+    .header__navigation{
+        height: 100%;
+        float: right;
+
+        & ul {
+            padding-top: 18px;
+            & li {
+                display: inline-block;
+                text-transform: uppercase;
+                margin: 18px;
+                
+            }
+        }
+
+    }
+    .header__button {
+        width:83px;
+        height: 33px;
+        text-transform: uppercase;
+        border-radius: 2px;
+        color: #fff;
+        background-color: #ffbb42;
+        cursor: default;
+    }
+}

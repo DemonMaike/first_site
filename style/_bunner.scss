@@ -1,0 +1,70 @@
+.bunner {
+    width: 100%;
+    height: 590px;
+    background-color: #709dca;
+   
+    
+    .bunner__text {
+        width: 100%;
+        max-width: 720px;
+        margin: 0px auto;
+        font-size: 30px;
+        text-align: center;
+        padding: 108px 0px 36px 0px;
+        & h2 {
+            font-size: 30px;
+            font-weight: bold;
+            color:#fff;
+            text-transform: uppercase;
+        }
+        & p {
+            font-size: 24px;
+            color: #fff;
+        }
+    }
+
+    .bunner__form {
+        display: inline-block;
+        text-align: center;
+        padding-left: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        & input {
+            display:inline-block;
+            margin: 10px;
+            height: 46px;
+            width: 282px;
+            border-radius: 5px;
+        }
+
+        & button { 
+            font-size:x-large;
+            display: inline-block;
+            margin: 0px;
+            height: 46px;
+            width: 210px;
+            color: #fff;
+            background-color: #ffbb42;
+            border-radius: 5px;
+            vertical-align: middle;
+        }   
+    }  
+}
+
+.bunner__nbook {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 67px;
+}
+
+.bunner__laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right:536px;
+    top:440px;
+}
+
