@@ -49,22 +49,23 @@
             vertical-align: middle;
         }   
     }  
-}
 
-.bunner__nbook {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 67px;
-}
+    .note {
+        position: relative;
+    }
 
-.bunner__laptop {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    right:536px;
-    top:440px;
-}
-
+    .bunner__nbook {
+        display: inline-block;
+        margin-top: 67px;
+        position:relative;
+        left: 280px;
+        
+    }
+    .bunner__laptop {
+        display: inline-block;
+        position:absolute;
+        margin-top: 86px;
+        right: 372px;
+    }
+    
+} 
